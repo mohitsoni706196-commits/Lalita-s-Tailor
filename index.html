@@ -1,0 +1,103 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mom's Tailor Shop</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+    }
+    header {
+      background: #6a1b9a;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #4a148c;
+    }
+    nav a {
+      color: white;
+      padding: 10px 15px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background: #7b1fa2;
+    }
+    section {
+      padding: 20px;
+    }
+    .services, .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+    footer {
+      background: #6a1b9a;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    button {
+      background: #6a1b9a;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #4a148c;
+    }
+  </style>
+</head>
+<body><header>
+  <h1>Mom's Tailor Shop</h1>
+  <p>Perfect Stitching, Perfect Style ✂️</p>
+</header><nav>
+  <a href="#home">Home</a>
+  <a href="#services">Services</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav><section id="home">
+  <h2>Welcome</h2>
+  <p>I provide high-quality stitching for ladies, kids, and custom designs.At low prices🤑</p>
+</section><section id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">Blouse Stitching</div>
+    <div class="card">Salwar Suit</div>
+    <div class="card">Lehenga</div>
+    <div class="card">Kids Wear</div>
+  </div>
+</section><section id="gallery">
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <div class="card">Design 1</div>
+    <div class="card">Design 2</div>
+    <div class="card">Design 3</div>
+  </div>
+</section><section id="contact">
+  <h2>Contact Us</h2>
+  <p>Phone: 9876543210</p>
+  <p>Address: Your City, India</p>
+  <button onclick="bookNow()">Book Now</button>
+</section><footer>
+  <p>© 2026 Mom's Tailor Shop</p>
+</footer><script>
+function bookNow() {
+  alert("Thank you! We will contact you soon.");
+}
+</script></body>
+</html>
